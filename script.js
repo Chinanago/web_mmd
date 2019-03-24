@@ -47,7 +47,7 @@
             //helper
             var axis = new THREE.AxisHelper(1000);
             axis.position.set(0, 0, 0);
-            scene.add(axis);
+            //scene.add(axis);
 
             var directionalLightShadowHelper = new THREE.CameraHelper( light.shadow.camera);
             scene.add( directionalLightShadowHelper);
