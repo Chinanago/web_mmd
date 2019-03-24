@@ -113,11 +113,8 @@
                 helper.setAnimation(mesh);
                 helper.setCamera(camera);
 
-                //モバイルデバイス時は重力処理を無しにする
-                if(!isMobileDevie()){
-                    helper.setPhysics(mesh);
-                }
-
+                //モバイルデバイス時でも重力処理を無しにしない                
+                helper.setPhysics(mesh);
                 helper.unifyAnimationDuration({afterglow: 2.0});
 
                 scene.add(mesh);
