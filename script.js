@@ -61,7 +61,7 @@
             renderer.setClearColor(0xeeeeee, 1);
             renderer.shadowMap.enabled = true;
             document.getElementById('stage').appendChild(renderer.domElement);
-            //renderer.render(scene, camera);
+            renderer.render(scene, camera);
 
             //control
             //モバイルデバイス時
