@@ -98,8 +98,7 @@
 
             //mesh
             var modelFile = "./mmd/pmd/Lat式ミクVer2.31/Lat_Miku_Ver2.31_Normal.pmd";
-            var vmdFiles = ['./mmd/vmd/Torino_motion/Torinoko_Miku_20101228.vmd'];
-
+            var vmdFiles = ['./mmd/vmd/love_letter(imas)/ラブレター_うづき.vmd'];
             helper = new THREE.MMDHelper(renderer);
             var loader = new THREE.MMDLoader();
             loader.setDefaultTexturePath('./three-js/examples/models/mmd/default/');
