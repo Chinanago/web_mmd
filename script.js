@@ -98,7 +98,7 @@
 
             //mesh
             var modelFile = "./mmd/pmd/Lat式ミクVer2.31/Lat_Miku_Ver2.31_Normal.pmd";
-            var vmdFiles = ['./mmd/vmd/wagu/kijoui-ue.vmd'];
+            var vmdFiles = ['./mmd/vmd/wagu/atatameau.vmd'];
             helper = new THREE.MMDHelper(renderer);
             var loader = new THREE.MMDLoader();
             loader.setDefaultTexturePath('./three-js/examples/models/mmd/default/');
@@ -112,8 +112,8 @@
                 helper.setAnimation(mesh);
                 helper.setCamera(camera);
 
-                //モバイルデバイス時でも重力処理を無しにしない                
-                helper.setPhysics(mesh);
+                //モバイルデバイス時でも重力処理を無しにしない;やっぱする                
+                //helper.setPhysics(mesh);
                 helper.unifyAnimationDuration({afterglow: 2.0});
 
                 scene.add(mesh);
