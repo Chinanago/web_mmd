@@ -97,8 +97,8 @@
             animate();
 
             //mesh
-            var modelFile = "./mmd/pmd/uduki/uduki.pmd";
-            var vmdFiles = ['./mmd/vmd/love_letter(imas)/loveletter_uduki.vmx'];
+            var modelFile = "./mmd/pmd/uduki/uduki.pmx";
+            var vmdFiles = ['./mmd/vmd/love_letter(imas)/loveletter_uduki.vmd'];
             helper = new THREE.MMDHelper(renderer);
             var loader = new THREE.MMDLoader();
             loader.setDefaultTexturePath('./three-js/examples/models/mmd/default/');
