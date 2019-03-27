@@ -97,7 +97,7 @@
             animate();
 
             //mesh
-            var modelFile = "./mmd/pmd/Lat式ミクVer2.31/Lat_Miku_Ver2.31_Normal.pmd";
+            var modelFile = "./mmd/pmd/uduki/uduki.pmd";
             var vmdFiles = ['./mmd/vmd/love_letter(imas)/loveletter_uduki.vmd'];
             helper = new THREE.MMDHelper(renderer);
             var loader = new THREE.MMDLoader();
